@@ -1,0 +1,13 @@
+[package]
+name = "rscli"
+version = "0.1.0"
+authors = ["elfor"]
+edition = "2021"
+
+
+[dependencies]
+clap = { version = "4.4.11", features = ["derive" , "cargo"] }
+csv = "1.3.0"
+rand = "0.8.5"
+log = {version ="0.4.20" , features = ["std"]}
+env_logger = "0.10.1"
